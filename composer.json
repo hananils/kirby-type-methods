@@ -1,0 +1,12 @@
+{
+    "name": "hananils/kirby-type-methods",
+    "description": "Kirby Type Methods",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hana+nils · Büro für Gestaltung",
+            "email": "buero@hananils.de"
+        }
+    ]
+}
