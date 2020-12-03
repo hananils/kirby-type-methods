@@ -29,7 +29,7 @@ Kirby::plugin('hananils/type-methods', [
             return $this->intendedTemplate()->name() === $template;
         }
     ],
-    'fileeMethods' => [
+    'fileMethods' => [
         'isUser' => function () {
             return false;
         },
