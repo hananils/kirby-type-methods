@@ -4,7 +4,7 @@
 
 ## Examples
 
-Think of site where you want to list members. Member information is either stored with the Kirby users (for admins) or on pages (for normal members). Given you have an array of all members, containing either user or page objects, type methods will you to identify the source:
+Think of site where you want to list members. Member information is either stored with the Kirby users (for admins) or on pages (for regular members). Given you have an array of all members, containing either user or page objects, type methods will help you to identify the source:
 
 ```php
 <?php foreach ($members as $member): ?>
@@ -16,7 +16,7 @@ Think of site where you want to list members. Member information is either store
 <?php endforeach; ?>
 ```
 
-Their is also a shortcut to check the given template or role respectively:
+There is also a shortcut to check the given template or role respectively:
 
 ```php
 <?php if ($member->isType('parents')): ?>
