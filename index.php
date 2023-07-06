@@ -40,7 +40,7 @@ Kirby::plugin('hananils/type-methods', [
             return true;
         },
         'isType' => function ($template = 'default') {
-            return $this->template()->name() === $template;
+            return $this->template() === $template;
         }
     ]
 ]);
