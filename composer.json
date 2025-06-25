@@ -1,13 +1,27 @@
 {
     "name": "hananils/kirby-type-methods",
-    "description": "Kirby Type Methods",
+    "description": "Type Methods is a plugin for Kirby helping to identify the type of an object, either page, user or file, in order to simplify logic in snippets that – for instance – handle content from both $page and $user objects.",
     "type": "kirby-plugin",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
             "email": "buero@hananils.de"
         }
-    ]
+    ],
+    "homepage": "https://kirby.hananils.de/plugins/type-methods",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.47",
+        "rector/rector": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
+    }
 }

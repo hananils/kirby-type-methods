@@ -1,6 +1,6 @@
 ![Kirby Type Methods](.github/title.png)
 
-**Type Methods** is a plugin for [Kirby 3](https://getkirby.com) helping to identify the type of an object, either page, user or file, in order to simplify logic in snippets that – for instance – handle content from both `$page` and `$user` objects.
+**Type Methods** is a plugin for [Kirby](https://getkirby.com) helping to identify the type of an object, either page, user or file, in order to simplify logic in snippets that – for instance – handle content from both `$page` and `$user` objects.
 
 ## Examples
 
@@ -92,5 +92,4 @@ Returns either `true` or `false`.
 
 # License
 
-This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de).
-We create visual designs for digital and analog media.
+This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de). We create visual designs for digital and analog media.
