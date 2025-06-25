@@ -2,6 +2,9 @@
 
 **Type Methods** is a plugin for [Kirby](https://getkirby.com) helping to identify the type of an object, either page, user or file, in order to simplify logic in snippets that – for instance – handle content from both `$page` and `$user` objects.
 
+> [!NOTE]
+> Please check out the online documentation at [kirby.hananils.de/plugins/type-methods](https://kirby.hananils.de/plugins/type-methods) for further information.
+
 ## Examples
 
 Think of site where you want to list members. Member information is either stored with the Kirby users (for admins) or on pages (for regular members). Given you have an array of all members, containing either user or page objects, type methods will help you to identify the source:
