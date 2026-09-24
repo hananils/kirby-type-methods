@@ -1,6 +1,6 @@
 {
     "name": "hananils/kirby-type-methods",
-    "description": "Type Methods is a plugin for Kirby helping to identify the type of an object, either page, user or file, in order to simplify logic in snippets that – for instance – handle content from both $page and $user objects.",
+    "description": "Type Methods helps to identify the type of an object, either page, user or file, in order to simplify logic in snippets that – for instance – handle content from both $page and $user objects.",
     "type": "kirby-plugin",
     "license": "MIT",
     "version": "2.0.0",
